@@ -23,7 +23,7 @@ const jokes = [
   "What did Yoda say when he saw himself in 4k? HDMI.",
   "Which superhero hits home runs? Batman!",
   "What’s Thanos’ favorite app on his phone? Snapchat.",
-  "Sandy’s mum has four kids; North, West, East. What is the name of the fourth child? Sandy, obviously!",
+  "Sandy\’s mum has four kids; North, West, East. What is the name of the fourth child? Sandy, obviously!",
   "What is a room with no walls? A mushroom.",
   "Why did the blue jay get in trouble at school? For tweeting on a test!",
   "What social events do spiders love to attend? Webbings.",
@@ -81,7 +81,7 @@ const jokes = [
   "What fruit do twins love? Pears!",
   "What time is it when people are throwing pieces of bread at your head? Time to duck.",
   "Why was the baby strawberry crying? Because their parents were in a jam.",
-  "Why don’t you ever see giraffes in middle school? Because they’re all in high school.",
+  "Why don’t you ever see giraffes in middle school? Because \ all in high school.",
   "How do bees brush their hair? With honeycombs!",
   "What do you do if someone rolls their eyes at you? Roll them right back.",
   "What did the Baby Corn say to the Mama Corn? “Where is Pop Corn?”",
@@ -120,4 +120,4 @@ const choice = Math.floor(Math.random() * jokes.length)
 let displayedJoke = jokes[choice]
 
 const el = document.querySelector("#element")
-el.innerHTML(displayedJoke)
+el.innerHTML = displayedJoke
